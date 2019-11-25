@@ -3,8 +3,8 @@ ports:
   - port: 3000
 tasks:
   - command: >
-    pyenv global 3.7.4 &&
-    pipenv install django==2.2.7 &&
-    pipenv install djangorestframeowork==3.10.3 &&
-    pipenv install &&
-    pipenv shell
+        pyenv global 3.7.4 &&
+        pipenv install django==2.2.7 &&
+        pipenv install djangorestframeowork==3.10.3 &&
+        pipenv install &&
+        pipenv shell

@@ -8,4 +8,3 @@ tasks:
           pipenv install djangorestframeowork==3.10.3 &&
           pipenv install &&
           pipenv shell  
-          
